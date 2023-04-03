@@ -1,64 +1,61 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import Head from "next/head";
+import Link from "next/link";
+import indexStyles from "../styles/Home.module.css";
+import utilStyles from "../styles/utils.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className={indexStyles.container}>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Brittany Renee Mayes</title>
+        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
-      <main>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+      <main className={utilStyles.maxWidth1020}>
+        <h1 className={`${utilStyles.heading5Xl} ${utilStyles.headingFont}`}>
+          Hi there, I'm&nbsp;Brittany.
         </h1>
 
-        <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
+        <p
+          className={`${utilStyles.heading2Xl} ${utilStyles.fontWeight200} ${utilStyles.letterSpacingRegular}`}
+        >
+          I'm the{" "}
+          <Link href="/" className={utilStyles.hoverUnderlineAnimation}>
+            Engineering&nbsp;Lead
+          </Link>{" "}
+          for Election&nbsp;Features at The&nbsp;Washington&nbsp;Post. I like to{" "}
+          <Link href="/" className={utilStyles.hoverUnderlineAnimation}>
+            work&nbsp;and&nbsp;lead
+          </Link>{" "}
+          with empathy and kindness. I was a{" "}
+          <Link href="/" className={utilStyles.hoverUnderlineAnimation}>
+            graphics
+          </Link>{" "}
+          and{" "}
+          <Link href="/" className={utilStyles.hoverUnderlineAnimation}>
+            social issues
+          </Link>{" "}
+          reporter in a previous life, among other things. Want to know more?{" "}
+          <Link href="/" className={utilStyles.hoverUnderlineAnimation}>
+            Let's chat
+          </Link>
+          .
         </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
       </main>
 
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
-        </a>
-      </footer>
+      {/* Previously, I was a{" "}
+          <Link href="/" className={utilStyles.hoverUnderlineAnimation}>
+            graphics&nbsp;reporter
+          </Link>{" "}
+          and a local{" "}
+          <Link href="/" className={utilStyles.hoverUnderlineAnimation}>
+            reporting fellow
+          </Link>{" "}
+          among other things. */}
+
+      {/* <footer>
+        <p>Created with Next.js, React and ♡</p>
+      </footer> */}
 
       <style jsx>{`
         main {
@@ -97,7 +94,7 @@ export default function Home() {
         }
       `}</style>
 
-      <style jsx global>{`
+      {/* <style jsx global>{`
         html,
         body {
           padding: 0;
@@ -109,7 +106,7 @@ export default function Home() {
         * {
           box-sizing: border-box;
         }
-      `}</style>
+      `}</style> */}
     </div>
-  )
+  );
 }

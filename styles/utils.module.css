@@ -113,6 +113,8 @@
   margin: 0 0 1.25rem;
 }
 
+/* Animations */
+
 a.hoverUnderlineAnimation {
   color: white;
   text-decoration: none;
@@ -143,7 +145,6 @@ a.hoverUnderlineAnimation {
   transform-origin: bottom left;
 }
 
-
 /* Mobile styles */
 @media screen and (max-width: 600px) {
   .heading5Xl {
@@ -161,5 +162,6 @@ a.hoverUnderlineAnimation {
   a.hoverUnderlineAnimation {
     text-decoration: underline;
     font-weight: 500;
+    position: static;
   }
 }

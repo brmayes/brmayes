@@ -1,0 +1,17 @@
+.contactGroupWrapper {
+  margin: 2rem 0;
+}
+
+.contactGroupWrapper p {
+  margin: 0;
+}
+
+.contactGroupWrapper .leadingText {
+  margin-bottom: -0.4rem;
+}
+
+@media screen and (max-width: 775px) {
+  .contactGroupWrapper .leadingText {
+    margin-bottom: -0.2rem;
+  }
+}

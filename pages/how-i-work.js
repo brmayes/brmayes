@@ -13,7 +13,7 @@ export default function HowIWork() {
 
         <main className={utilStyles.maxWidth1020}>
           <h1 className={`${utilStyles.heading5Xl} ${utilStyles.headingFont}`}>
-            How I work
+            How I work.
           </h1>
 
           <p

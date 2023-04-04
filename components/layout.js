@@ -26,7 +26,7 @@ export default function Layout({ children, home }) {
         {!home && (
           <div>
             <p className={utilStyles.maxWidth1020}>
-              <Link href="/">← Back to home</Link>
+              <Link href="/">← Take me home</Link>
             </p>
           </div>
         )}

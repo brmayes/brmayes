@@ -10,7 +10,6 @@ export default function Home() {
       <div className={indexStyles.container}>
         <Head>
           <title>Brittany Renee Mayes</title>
-          {/* <link rel="icon" href="/favicon.ico" /> */}
         </Head>
 
         <main className={utilStyles.maxWidth1020}>

@@ -9,7 +9,6 @@ export default function HowIWork() {
       <div>
         <Head>
           <title>How I work</title>
-          {/* <link rel="icon" href="/favicon.ico" /> */}
         </Head>
 
         <main className={utilStyles.maxWidth1020}>

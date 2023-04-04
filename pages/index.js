@@ -41,7 +41,10 @@ export default function Home() {
               social issues
             </Link>{" "}
             reporter in a previous life, among other things. Want to know more?{" "}
-            <Link href="/" className={utilStyles.hoverUnderlineAnimation}>
+            <Link
+              href="/contact"
+              className={utilStyles.hoverUnderlineAnimation}
+            >
               Let's chat
             </Link>
             .

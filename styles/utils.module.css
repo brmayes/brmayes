@@ -67,13 +67,14 @@
   min-height: 560px;
 }
 
-/* Colors */
-.yellow { color: #f6c917; }
-.orange { color: #fd761b; }
+/* Colors roygbiv */
 .red { color: #fb1f1e; }
-.purple { color: #9d45ff; }
+.pink { color: #ff19cf; }
+.orange { color: #fd761b; }
+.yellow { color: #f6c917; }
 .green { color: #1bd773; }
 .blue { color: #2199f0; }
+.purple { color: #9d45ff; }
 
 .headingFont {
   /* font-family: "Unbounded"; */
@@ -147,9 +148,10 @@ a.hoverUnderlineAnimation {
   font-weight: 700;
 }
 
-a.hoverUnderlineAnimation.yellow { color: #f6c917; }
-a.hoverUnderlineAnimation.orange { color: #fd761b; }
 a.hoverUnderlineAnimation.red { color: #fb1f1e; }
+a.hoverUnderlineAnimation.pink { color: #ff19cf; }
+a.hoverUnderlineAnimation.orange { color: #fd761b; }
+a.hoverUnderlineAnimation.yellow { color: #f6c917; }
 a.hoverUnderlineAnimation.purple { color: #9d45ff; }
 a.hoverUnderlineAnimation.green { color: #1bd773; }
 a.hoverUnderlineAnimation.blue { color: #2199f0; }
@@ -172,9 +174,10 @@ a.hoverUnderlineAnimation.blue { color: #2199f0; }
   transition: transform 0.25s ease-out;
 }
 
-a.yellow.hoverUnderlineAnimation::after { background-color: #f6c917; }
-a.orange.hoverUnderlineAnimation::after { background-color: #fd761b; }
 a.red.hoverUnderlineAnimation::after { background-color: #fb1f1e; }
+a.pink.hoverUnderlineAnimation::after { background-color: #ff19cf; }
+a.orange.hoverUnderlineAnimation::after { background-color: #fd761b; }
+a.yellow.hoverUnderlineAnimation::after { background-color: #f6c917; }
 a.purple.hoverUnderlineAnimation::after { background-color: #9d45ff; }
 a.green.hoverUnderlineAnimation::after { background-color: #1bd773; }
 a.blue.hoverUnderlineAnimation::after { background-color: #2199f0; }

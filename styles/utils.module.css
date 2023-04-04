@@ -152,9 +152,9 @@ a.hoverUnderlineAnimation.red { color: #fb1f1e; }
 a.hoverUnderlineAnimation.pink { color: #ff19cf; }
 a.hoverUnderlineAnimation.orange { color: #fd761b; }
 a.hoverUnderlineAnimation.yellow { color: #f6c917; }
-a.hoverUnderlineAnimation.purple { color: #9d45ff; }
 a.hoverUnderlineAnimation.green { color: #1bd773; }
 a.hoverUnderlineAnimation.blue { color: #2199f0; }
+a.hoverUnderlineAnimation.purple { color: #9d45ff; }
 
 .hoverUnderlineAnimation {
   display: inline-block;
@@ -178,9 +178,9 @@ a.red.hoverUnderlineAnimation::after { background-color: #fb1f1e; }
 a.pink.hoverUnderlineAnimation::after { background-color: #ff19cf; }
 a.orange.hoverUnderlineAnimation::after { background-color: #fd761b; }
 a.yellow.hoverUnderlineAnimation::after { background-color: #f6c917; }
-a.purple.hoverUnderlineAnimation::after { background-color: #9d45ff; }
 a.green.hoverUnderlineAnimation::after { background-color: #1bd773; }
 a.blue.hoverUnderlineAnimation::after { background-color: #2199f0; }
+a.purple.hoverUnderlineAnimation::after { background-color: #9d45ff; }
 
 .hoverUnderlineAnimation:hover::after {
   transform: scaleX(1);

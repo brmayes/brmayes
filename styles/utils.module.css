@@ -188,7 +188,7 @@ a.purple.hoverUnderlineAnimation::after { background-color: #9d45ff; }
 }
 
 /* Mobile styles */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 775px) {
   .heading5Xl {
     font-size: 3rem;
     line-height: 1.25;

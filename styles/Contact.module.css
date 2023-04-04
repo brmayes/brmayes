@@ -9,3 +9,9 @@
 .contactGroupWrapper .leadingText {
   margin-bottom: -0.4rem;
 }
+
+@media screen and (max-width: 775px) {
+  .contactGroupWrapper .leadingText {
+    margin-bottom: -0.2rem;
+  }
+}

@@ -12,23 +12,28 @@
    font-weight: 300;
    text-align: left;
    background-color: black;
+   color: white;
  }
  
  * {
    box-sizing: border-box;
  }
  
- /* a {
-   color: #0070f3;
+ a {
+   /* color: #0070f3; */
+   color: white;
    text-decoration: none;
  }
  
  a:hover {
    text-decoration: underline;
- } */
+ }
  
  img {
    max-width: 100%;
    display: block;
  }
  
+ p {
+  width: 100%;
+ }

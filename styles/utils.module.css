@@ -75,6 +75,8 @@
 .green { color: #1bd773; }
 .blue { color: #2199f0; }
 .purple { color: #9d45ff; }
+.gray { color: #818181; }
+.white { color: white; }
 
 .headingFont {
   /* font-family: "Unbounded"; */
@@ -114,6 +116,20 @@
   line-height: 1.5;
 }
 
+/* Custom margins */
+.zeroBottomMargin {
+  margin-bottom: 0;
+}
+
+.negativeTopMargin {
+  margin-top: -.25em;
+}
+
+/* Custom line height */
+.lineHeight100 {
+  line-height: 1;
+}
+
 .borderCircle {
   border-radius: 9999px;
 }
@@ -136,6 +152,16 @@
   margin: 0 0 1.25rem;
 }
 
+.back {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
 /* Animations */
 a.hoverUnderlineAnimation {
   color: white;
@@ -155,6 +181,7 @@ a.hoverUnderlineAnimation.yellow { color: #f6c917; }
 a.hoverUnderlineAnimation.green { color: #1bd773; }
 a.hoverUnderlineAnimation.blue { color: #2199f0; }
 a.hoverUnderlineAnimation.purple { color: #9d45ff; }
+a.hoverUnderlineAnimation.gray { color: #818181; }
 
 .hoverUnderlineAnimation {
   display: inline-block;
@@ -181,6 +208,7 @@ a.yellow.hoverUnderlineAnimation::after { background-color: #f6c917; }
 a.green.hoverUnderlineAnimation::after { background-color: #1bd773; }
 a.blue.hoverUnderlineAnimation::after { background-color: #2199f0; }
 a.purple.hoverUnderlineAnimation::after { background-color: #9d45ff; }
+a.gray.hoverUnderlineAnimation::after { background-color: #818181; }
 
 .hoverUnderlineAnimation:hover::after {
   transform: scaleX(1);

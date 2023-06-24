@@ -2,13 +2,23 @@ import Head from "next/head";
 import Link from "next/link";
 import utilStyles from "../styles/utils.module.css";
 import Layout from "../components/layout";
+import { getSortedPostsData } from "../lib/posts";
+
+export async function getStaticProps() {
+  const allPostsData = getSortedPostsData("content/beliefs");
+  return {
+    props: {
+      allPostsData,
+    },
+  };
+}
 
 export default function HowIWork() {
   return (
     <Layout page>
       <div>
         <Head>
-          <title>How I work</title>
+          <title>How I work.</title>
         </Head>
 
         <main className={utilStyles.maxWidth1020}>
@@ -50,7 +60,7 @@ export default function HowIWork() {
             >
               norms
             </Link>
-            . Read more in{" "}
+            . Read more on{" "}
             <Link
               href="https://source.opennews.org/articles/healthy-work-culture-rituals-norms/"
               target="_blank"

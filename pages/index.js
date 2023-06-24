@@ -21,7 +21,10 @@ export default function Home() {
             className={`${utilStyles.heading2Xl} ${utilStyles.fontWeight200} ${utilStyles.letterSpacingRegular}`}
           >
             I'm the{" "}
-            <Link href="/" className={utilStyles.hoverUnderlineAnimation}>
+            <Link
+              href="/elections"
+              className={utilStyles.hoverUnderlineAnimation}
+            >
               Engineering&nbsp;Lead
             </Link>{" "}
             for Election&nbsp;Features at The&nbsp;Washington&nbsp;Post. I like
@@ -33,11 +36,17 @@ export default function Home() {
               work&nbsp;and&nbsp;lead
             </Link>{" "}
             with empathy and kindness. I was a{" "}
-            <Link href="/" className={utilStyles.hoverUnderlineAnimation}>
+            <Link
+              href="/graphics"
+              className={utilStyles.hoverUnderlineAnimation}
+            >
               graphics
             </Link>{" "}
             and{" "}
-            <Link href="/" className={utilStyles.hoverUnderlineAnimation}>
+            <Link
+              href="/social-issues"
+              className={utilStyles.hoverUnderlineAnimation}
+            >
               social issues
             </Link>{" "}
             reporter in a previous life, among other things. Want to know more?{" "}

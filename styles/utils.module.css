@@ -75,6 +75,7 @@
 .green { color: #1bd773; }
 .blue { color: #2199f0; }
 .purple { color: #9d45ff; }
+.gray { color: #818181; }
 
 .headingFont {
   /* font-family: "Unbounded"; */
@@ -155,6 +156,7 @@ a.hoverUnderlineAnimation.yellow { color: #f6c917; }
 a.hoverUnderlineAnimation.green { color: #1bd773; }
 a.hoverUnderlineAnimation.blue { color: #2199f0; }
 a.hoverUnderlineAnimation.purple { color: #9d45ff; }
+a.hoverUnderlineAnimation.gray { color: #818181; }
 
 .hoverUnderlineAnimation {
   display: inline-block;
@@ -181,6 +183,8 @@ a.yellow.hoverUnderlineAnimation::after { background-color: #f6c917; }
 a.green.hoverUnderlineAnimation::after { background-color: #1bd773; }
 a.blue.hoverUnderlineAnimation::after { background-color: #2199f0; }
 a.purple.hoverUnderlineAnimation::after { background-color: #9d45ff; }
+a.gray.hoverUnderlineAnimation::after { background-color: #818181; }
+
 
 .hoverUnderlineAnimation:hover::after {
   transform: scaleX(1);

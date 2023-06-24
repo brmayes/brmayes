@@ -34,28 +34,28 @@ export default function HowIWork() {
             transparency and open communication. I believe in Brian Boyer's
             general framework of happy teams comprised of{" "}
             <Link
-              href="/"
+              href="/posts/rituals"
               className={`${utilStyles.hoverUnderlineAnimation} ${utilStyles.purple}`}
             >
               rituals
             </Link>
             ,{" "}
             <Link
-              href="/"
+              href="/posts/roles"
               className={`${utilStyles.hoverUnderlineAnimation} ${utilStyles.yellow}`}
             >
               roles
             </Link>
             ,{" "}
             <Link
-              href="/"
+              href="/posts/goals"
               className={`${utilStyles.hoverUnderlineAnimation} ${utilStyles.green}`}
             >
               goals
             </Link>{" "}
             and{" "}
             <Link
-              href="/"
+              href="/posts/norms"
               className={`${utilStyles.hoverUnderlineAnimation} ${utilStyles.orange}`}
             >
               norms

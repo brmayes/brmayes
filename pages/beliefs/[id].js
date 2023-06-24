@@ -9,7 +9,7 @@ export default function Post({ postData }) {
     <Layout page>
       <div>
         <Head>
-          <title>{postData.title}</title>
+          <title>{postData.title}.</title>
         </Head>
 
         <main className={utilStyles.maxWidth1020}>

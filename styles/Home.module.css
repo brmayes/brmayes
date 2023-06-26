@@ -17,9 +17,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
-  background: linear-gradient(-45deg,  #e1bc29, #ee7752, #e15554, #7768ae, #3bb273, #4d9de0);
+  /* background: linear-gradient(135deg, #f6c917,#fd761b,#ff19cf,#fb1f1e,#9d45ff,#1bd773,#2199f0); */
+  background: linear-gradient(-45deg,  #e1bc29, #ee7752, #e73c7e, #e15554, #7768ae, #3bb273, #4d9de0);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   color: white
 }
+
+
+
+
+
